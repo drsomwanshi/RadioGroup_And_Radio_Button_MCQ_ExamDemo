@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/lay1"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:text="Who Developed Kotlin?"
+    android:textSize="14pt"
+    ></TextView>
+
+    <RadioGroup
+        android:layout_width="187dp"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Microsoft"
+            android:layout_margin="10dp"
+            android:textSize="14pt"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/r2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Sun Microsystem"
+            android:layout_margin="10dp"
+            android:textSize="14pt"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/r3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="JetBrain"
+            android:layout_margin="10dp"
+            android:textSize="14pt"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/r4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Google"
+            android:layout_margin="10dp"
+            android:textSize="14pt"></RadioButton>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:textSize="14pt"
+            android:layout_margin="10dp"
+            android:id="@+id/b1"
+            android:onClick="ckeck"
+
+            ></Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_margin="10dp"
+            android:textSize="14pt"
+            android:id="@+id/b2"
+            ></Button>
+
+    </LinearLayout>
+
+</LinearLayout>
